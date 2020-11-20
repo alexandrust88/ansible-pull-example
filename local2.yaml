@@ -2,9 +2,9 @@
 - hosts: all
 
   tasks:
-  - name: install example application
+  - name: install example application2
     copy: 
       src: ansible_test_app 
-      dest: /tmp/
+      dest: /var
       owner: root
       group: root
